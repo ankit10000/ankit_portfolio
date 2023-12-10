@@ -17,7 +17,7 @@ export const ProjectList = [
         "Welcome to my portfolio, where innovation meets expertise in Front-end and Backend Development. I fuse technical prowess with creative flair. Explore my projects showcasing a commitment to excellence, problem-solving, and a passion for delivering impactful solutions. Join me on a journey where ideas come to life, leaving a lasting impression.",
       tech_stack: "HTML, CSS, Javascript, React JS, Bootstrap",
       github_url: "https://github.com/ankit10000/ankit_portfolio",
-      demo_url: "https://ankit-portfolio-adl1.vercel.app/",
+      demo_url: "https://ankit-portfolio-theta.vercel.app/",
     },
     {
       img: "https://i.imgur.com/haXQpUn.jpg",
