@@ -9,10 +9,13 @@ const FooterSection = styled.div`
   height: 250px;
   position: relative;
 
+
   span {
     position: absolute;
     bottom: 4rem;
+    left: 10rem;
     color: #fff;
+    font-weight: bolder;
 
     a {
       text-decoration: underline;
@@ -26,11 +29,11 @@ function Footer() {
         <span>
           Coded with 💙 by{" "}
           <a
-            href="https://github.com/gurupawar/"
+            href="https://github.com/ankit10000/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            @gurupawar
+            @ankit
           </a>{" "}
         </span>
       </div>
