@@ -1,6 +1,6 @@
 import React from "react";
 import { stackList } from "../../data/ProjectData";
-import aboutpic from '../../img/admin.png'
+import aboutpic from "../../img/admin.png";
 import {
   Image,
   Technologies,
@@ -15,18 +15,20 @@ function About() {
       <div className="Container">
         <div className="SectionTitle">About Me</div>
         <div className="BigCard">
-          <Image
-            src={aboutpic}
-            alt="man-svgrepo"
-          />
+          <Image src={aboutpic} alt="man-svgrepo" />
           <div className="AboutBio">
-            Hello! My name is <strong>Your Name</strong> Lorem Ipsum is simply
-            dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the industry's standard dummy text ever since the 1500s, when
-            an unknown printer took a galley of type and scrambled it to make a
-            type specimen book. It has survived not only five centuries, but
-            also the leap into electronic typesetting, remaining essentially
-            unchanged.
+            Hello! My name is <strong>Ankit Jangid</strong> is an expertise in web design,
+            Node.js, Express.js, MongoDB, React.js, Bootstrap, PHP, and MySQL.
+            Specializing in creating dynamic and responsive websites and
+            applications, he collaborates with experienced developers,
+            continually learning and adhering to industry best practices.
+            Currently pursuing MCA degrees at JECRC University and Sunstone,
+            Ankit's academic journey in computer science is complemented by
+            certifications in web design, Google Sheets, and Facebook Ads. With
+            top skills in MongoDB, Express.js, React.js, Node.js, and
+            JavaScript, he aspires to become a proficient full-stack web
+            developer, delivering high-quality solutions across diverse
+            requirements and audiences.
           </div>
           <div className="AboutBio tagline2">
             I have become confident using the following technologies.
