@@ -1,4 +1,6 @@
 // --------------------------------------- Project List
+import Shoes from '../img/Shoes-Hub.jpeg'
+import Portfolio from '../img/portfolio.png'
 export const ProjectList = [
     {
       img: "https://i.imgur.com/xBGnjeM.png",
@@ -10,7 +12,7 @@ export const ProjectList = [
       demo_url: "http://queryresolve.tk",
     },
     {
-      img: "https://i.imgur.com/p8CBgvq.png",
+      img: Portfolio,
       video:"",
       title: "Ankit || Portfolio",
       description:
@@ -28,16 +30,16 @@ export const ProjectList = [
       github_url: "https://github.com/ankit10000/log_reg_pag",
       demo_url: "/",
     },
-    // {
-    //   img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/project_3.png",
-    //   video:"",
-    //   title: "Ecommerce website",
-    //   description:
-    //     "Created simple ecommerce website using reactjs and react-use-cart plugin.",
-    //   tech_stack: "Reactjs, Css",
-    //   github_url: "https://your_project_github_link",
-    //   demo_url: "https://your_project_demo_link",
-    // },
+    {
+      img: Shoes,
+      video:"",
+      title: "Shoes-Hub",
+      description:
+        "Shoes-Hub is basically an shoes buying website for people's and this website is in under development, and there is no payment gatway for this website because this is on trial basis so there is no any payment gatway for that , customer can buy a shoes through whatsapp like customer is click on any product and the customer would navigate on seller's whatsapp chat and then people would paying by cash or online for there product that's it",
+      tech_stack: "Reactjs . Tailwind CSS · styled-components · CSS · JavaScript · Bootstrap",
+      github_url: "https://github.com/ankit10000/shoes-hub",
+      demo_url: "https://shoes-hub-eight.vercel.app/",
+    },
   ];
   
   // --------------------------------------- Skills
