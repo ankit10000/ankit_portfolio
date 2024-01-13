@@ -13,7 +13,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #fafaff;
   font-weight: 400;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  zoom: 100%;
+  -webkit-user-drag: element;
 }
+
 
 main {
   background: #151418;
@@ -161,5 +167,124 @@ video {
 @media (min-width: 1200px) {
   .Container {
     max-width: 1000px;
+  }
+}
+
+
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #DF8453;
+  --color-2: #3D8DAE;
+  --color-3: #E4A9A8;
+}
+
+.title-word-2 {
+  --color-1: #DBAD4A;
+  --color-2: #ACCFCB;
+  --color-3: #17494D;
+}
+
+.title-word-3 {
+  --color-1: #ACCFCB;
+  --color-2: #E4A9A8;
+  --color-3: #ACCFCB;
+}
+
+.title-word-4 {
+  --color-1: #3D8DAE;
+  --color-2: #DF8453;
+  --color-3: #E4A9A8;
+}
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
+.p {
+  position: relative;
+  color: hsl(0, 0%, 68%);
+  font-weight: bold!important;
+  letter-spacing: 7px!important;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typewriter 4s steps(290) 1s 1 normal both,
+    blinkTextCursor 500ms infinite;
+}
+.p1 {
+  position: relative;
+  color: hsl(0, 0%, 68%);
+  font-weight: bold!important;
+  letter-spacing: 7px!important;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typewriter 4s steps(290) 1s 1 normal both,
+    blinkTextCursor 500ms infinite;
+}
+.p2 {
+  position: relative;
+  color: hsl(0, 0%, 68%);
+  font-weight: bold!important;
+  letter-spacing: 7px!important;
+  overflow: hidden;
+  white-space: wrap;
+  animation: typewriter 4s steps(290) 1s 1 normal both,
+    blinkTextCursor 500ms infinite;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 480px;
+  }
+}
+@media screen and (max-width:485px) {
+  .p {
+    position: relative;
+    color: hsl(0, 0%, 68%);
+    font-weight: bold!important;
+    letter-spacing: 7px!important;
+    overflow: hidden;
+    white-space: wrap;
+    animation: typewriter 4s steps(290) 1s 1 normal both,
+      blinkTextCursor 500ms infinite;
+  }
+  .p1 {
+    position: relative;
+    color: hsl(0, 0%, 68%);
+    font-weight: bold!important;
+    letter-spacing: 7px!important;
+    overflow: hidden;
+    white-space: wrap;
+    animation: typewriter 4s steps(290) 1s 1 normal both,
+      blinkTextCursor 500ms infinite;
+  }
+  .p2 {
+    position: relative;
+    color: hsl(0, 0%, 68%);
+    font-weight: bold!important;
+    letter-spacing: 7px!important;
+    overflow: hidden;
+    white-space: wrap;
+    animation: typewriter 4s steps(290) 1s 1 normal both,
+      blinkTextCursor 500ms infinite;
+  }
+  
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 250px;
+    }
   }
 }
