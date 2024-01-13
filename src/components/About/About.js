@@ -1,6 +1,8 @@
 import React from "react";
 import { stackList } from "../../data/ProjectData";
 import aboutpic from "../../img/admin.png";
+import Fade from 'react-reveal/Fade';
+
 import {
   Image,
   Technologies,
@@ -12,6 +14,7 @@ import {
 function About() {
   return (
     <ContactWrapper id="about">
+<Fade bottom>
       <div className="Container">
         <div className="SectionTitle">About Me</div>
         <div className="BigCard">
@@ -43,6 +46,7 @@ function About() {
           </Technologies>
         </div>
       </div>
+      </Fade>
     </ContactWrapper>
   );
 }

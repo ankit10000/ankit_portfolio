@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-
+import ScrollToTop from "react-scroll-to-top";
 const FooterSection = styled.div`
   background-image: url(https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/footer_wave.svg);
   background-repeat: no-repeat;
@@ -34,9 +34,10 @@ function Footer() {
             rel="noopener noreferrer"
           >
             @ankit
-          </a>{" "}
+          </a>
         </span>
       </div>
+      <ScrollToTop smooth/>
     </FooterSection>
   );
 }

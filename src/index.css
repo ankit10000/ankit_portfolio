@@ -215,7 +215,7 @@ video {
   letter-spacing: 7px!important;
   overflow: hidden;
   white-space: nowrap;
-  animation: typewriter 4s steps(290) 1s 1 normal both,
+  animation: typewriter 3s steps(290) 1s 1 normal both,
     blinkTextCursor 500ms infinite;
 }
 .p1 {
@@ -225,7 +225,7 @@ video {
   letter-spacing: 7px!important;
   overflow: hidden;
   white-space: nowrap;
-  animation: typewriter 4s steps(290) 1s 1 normal both,
+  animation: typewriter 3s steps(290) 1s 1 normal both,
     blinkTextCursor 500ms infinite;
 }
 .p2 {
@@ -234,9 +234,29 @@ video {
   font-weight: bold!important;
   letter-spacing: 7px!important;
   overflow: hidden;
-  white-space: wrap;
-  animation: typewriter 4s steps(290) 1s 1 normal both,
+  white-space: nowrap;
+  animation: typewriter 3s steps(290) 1s 1 normal both,
     blinkTextCursor 500ms infinite;
+}
+
+
+.h2 {
+  position: relative;
+  color: hsl(0, 0%, 68%);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typewriter 1s steps(290) 1s 1 normal both,
+  blinkTextCursor 500ms infinite;
+}
+
+
+.h5 {
+  position: relative;
+  color: hsl(0, 0%, 68%);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typewriter 2s steps(290) 1s 1 normal both,
+  blinkTextCursor 500ms infinite;
 }
 
 @keyframes typewriter {
@@ -247,6 +267,9 @@ video {
     width: 480px;
   }
 }
+#about{
+  padding-top: 100px;
+}
 @media screen and (max-width:485px) {
   .p {
     position: relative;
@@ -255,7 +278,7 @@ video {
     letter-spacing: 7px!important;
     overflow: hidden;
     white-space: wrap;
-    animation: typewriter 4s steps(290) 1s 1 normal both,
+    animation: typewriter 3s steps(290) 1s 1 normal both,
       blinkTextCursor 500ms infinite;
   }
   .p1 {
@@ -265,7 +288,7 @@ video {
     letter-spacing: 7px!important;
     overflow: hidden;
     white-space: wrap;
-    animation: typewriter 4s steps(290) 1s 1 normal both,
+    animation: typewriter 3s steps(290) 1s 1 normal both,
       blinkTextCursor 500ms infinite;
   }
   .p2 {
@@ -275,8 +298,24 @@ video {
     letter-spacing: 7px!important;
     overflow: hidden;
     white-space: wrap;
-    animation: typewriter 4s steps(290) 1s 1 normal both,
+    animation: typewriter 3s steps(290) 1s 1 normal both,
       blinkTextCursor 500ms infinite;
+  }
+  .h2 {
+    position: relative;
+    color: hsl(0, 0%, 68%);
+    overflow: hidden;
+    white-space: wrap;
+    animation: typewriter 1s steps(290) 1s 1 normal both,
+    blinkTextCursor 500ms infinite;
+  }
+  .h5 {
+    position: relative;
+    color: hsl(0, 0%, 68%);
+    overflow: hidden;
+    white-space: wrap;
+    animation: typewriter 2s steps(290) 1s 1 normal both,
+    blinkTextCursor 500ms infinite;
   }
   
   @keyframes typewriter {

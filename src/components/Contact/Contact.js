@@ -1,9 +1,11 @@
 import React from "react";
 import SocialIcon from "../SocialIcon/SocialIcon";
+import Fade from 'react-reveal/Fade';
 import { ContactWrapper, Email } from "./ContactElements";
 function Contact() {
   return (
     <ContactWrapper id="contact">
+      <Fade left>
       <div className="Container">
         <div className="SectionTitle">Get In Touch</div>
         <div className="BigCard">
@@ -21,6 +23,7 @@ function Contact() {
         </div>
         <SocialIcon />
       </div>
+      </Fade>
     </ContactWrapper>
   );
 }

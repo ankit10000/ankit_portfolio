@@ -1,4 +1,5 @@
 import React from "react";
+import Zoom from 'react-reveal/Zoom';
 import ProjectCard from "./ProjectCard/ProjectCard";
 function Projects() {
   return (
@@ -21,8 +22,11 @@ function Projects() {
         ></path>
       </svg>
       <div className="ProjectWrapper" id="projects">
+
         <div className="Container">
+        <Zoom bottom >
           <div className="SectionTitle">Projects</div>
+        </Zoom>
           <ProjectCard />
         </div>
       </div>

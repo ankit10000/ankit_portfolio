@@ -8,9 +8,12 @@ import {
   BtnGroup,
   StyledParagraph
 } from "./ProjectCardElements";
+import Zoom from 'react-reveal/Zoom';
+
+
 function ProjectCard() {
   return (
-    <>
+    <Zoom bottom>
       {ProjectList.map((list, index) => (
         <Card key={index}>
           <CardLeft>
@@ -51,7 +54,7 @@ function ProjectCard() {
           </CardRight>
         </Card>
       ))}
-    </>
+    </Zoom>
   );
 }
 

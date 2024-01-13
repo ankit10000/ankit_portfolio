@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Dropdown from "../Dropdown/Dropdown";
 import Header from "../Header/Header";
 import ProfilePIC from "../../img/admin.png"
+import Fade from 'react-reveal/Fade';
+
 import {
   HeroContainer,
   HeroWrapper,
@@ -24,15 +26,13 @@ function Hero() {
       <HeroContainer>
         <HeroWrapper>
           <HeroLeft>
-            <h1>
-            <h2 class="title">
-              <span class="title-word title-word-1">Hello, </span>
-              <span class="title-word title-word-2"> I'm</span>
-              <span class="title-word title-word-3"> Ankit </span>
-              <span class="title-word title-word-4">Jangid</span>
-            </h2>
+            <h1 className="title h2">
+              <span className="title-word title-word-1">Hello, </span>
+              <span className="title-word title-word-2"> I'm</span>
+              <span className="title-word title-word-3"> Ankit </span>
+              <span className="title-word title-word-4">Jangid</span>
             </h1>
-            <h5>Front-end Developer & Back-end Developer</h5>
+            <h5 className="h5">Front-end Developer & Back-end <br /> Developer</h5>
             <p className="p">
             I create and develop elegantly
             </p>
@@ -44,12 +44,15 @@ function Hero() {
             </p>
           </HeroLeft>
           <HeroRight>
+            <Fade top>
             <Image
               src={ProfilePIC}
               alt="man-svgrepo"
             />
+            </Fade>
           </HeroRight>
         </HeroWrapper>
+        <Fade top>
         <ScrollDown to="projects">
           <ScrollLink>
             Scroll down
@@ -59,6 +62,7 @@ function Hero() {
             />
           </ScrollLink>
         </ScrollDown>
+        </Fade>
       </HeroContainer>
     </main>
   );
