@@ -64,18 +64,7 @@ function Hero() {
         </ScrollDown>
         </Fade>
       </HeroContainer>
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1741603920942400"
-     crossorigin="anonymous"></script>
-<!-- portfolio -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-1741603920942400"
-     data-ad-slot="5203283617"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+             
     </main>
   );
 }
