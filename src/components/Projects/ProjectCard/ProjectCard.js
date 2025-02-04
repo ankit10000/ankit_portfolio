@@ -15,7 +15,7 @@ function ProjectCard() {
   return (
     <Zoom bottom>
       {ProjectList.map((list, index) => (
-        <Card key={index}>
+        <Card className="text-white" key={index}>
           <CardLeft>
             <img src={list.img} alt={list.name} />
               {/* <iframe

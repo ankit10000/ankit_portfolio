@@ -33,6 +33,7 @@ export const CardLeft = styled.div`
 `;
 export const StyledParagraph = styled.p`
   display: -webkit-box;
+  color: aliceblue !important;
   -webkit-line-clamp: 3; /* Number of lines to show */
   -webkit-box-orient: vertical;
   overflow: hidden;

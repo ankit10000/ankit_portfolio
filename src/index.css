@@ -11,7 +11,7 @@ body {
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #fafaff;
+  background: #020061;
   font-weight: 400;
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
@@ -137,12 +137,12 @@ video {
 
 .SectionTitle {
   font-size: 28px;
-  color: #151418;
+  color: #ffffff;
   font-weight: 700;
   margin-bottom: 3.5rem;
 }
 .ProjectWrapper {
-  margin-top: -1rem;
+  margin-top: 8rem !important;
 }
 
 /* ------------------------------------ Media for Container */
@@ -326,4 +326,7 @@ video {
       width: 250px;
     }
   }
+}
+.text-white{
+  color: aliceblue;
 }

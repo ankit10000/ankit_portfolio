@@ -20,7 +20,7 @@ function Hero() {
     setIsOpen(!isOpen);
   };
   return (
-    <main>
+    <>
       <Dropdown isOpen={isOpen} toggle={toggle} />
       <Header toggle={toggle} />
       <HeroContainer>
@@ -65,7 +65,7 @@ function Hero() {
         </Fade>
       </HeroContainer>
              
-    </main>
+    </>
   );
 }
 
