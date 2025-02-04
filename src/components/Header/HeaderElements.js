@@ -24,11 +24,7 @@ export const NavLink = styled(ScrollLink)`
   }
 `;
 export const Logo = styled(LinkRouter)`
-  /* img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-  } */
+ 
   span{
     color: white;
     font-family: Rubik Bubbles;

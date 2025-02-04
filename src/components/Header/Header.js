@@ -1,6 +1,6 @@
 import React from "react";
 import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
-import resume from '../../docs/AnkitResume.pdf'
+import resume from '../../docs/Ankit Jangid - Resume.pdf'
 // import imagi from './logo-white.png'
 
 const Header = ({ toggle }) => {

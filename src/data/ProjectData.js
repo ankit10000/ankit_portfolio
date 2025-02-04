@@ -1,8 +1,50 @@
-// --------------------------------------- Project List
 import Shoes from '../img/Shoes-Hub.jpeg'
 import Portfolio from '../img/portfolio.png'
+import Comity from '../img/1735832704667.jpeg'
+import Payment from '../img/payment.png'
+import Redshop from '../img/1725382873671.jpeg'
 export const ProjectList = [
-    {
+  {
+    img: Payment,
+    video:"",
+    title: "Razorpay Payment Gateway",
+    description:
+      "Secure and seamless payment integration with Razorpay, enabling businesses to accept payments via cards, UPI, net banking, and wallets. With robust APIs and easy integration, I ensure smooth transaction experiences for users.",
+    tech_stack: "React, Node, Express, Razorpay API",
+    github_url: "https://github.com/ankit10000/razorpay_nodejs_reactjs-setup",
+    demo_url: "#",
+  },
+  {
+    img: Comity,
+    video:"",
+    title: "Comity Edutech",
+    description:
+      "As part of my role in redeveloping the website for Comity Edutech, I focused on enhancing the platform’s functionality, user experience, and visual appeal. Key contributions include",
+    tech_stack: "MERN Stack,Godaddy Services",
+    github_url: "https://github.com/vijaypuri028/comity-of-my",
+    demo_url: "https://comityedutech.com/",
+  },
+  {
+    img: Redshop,
+    video:"",
+    title: "Red-Shop",
+    description:
+      "Red-Shop is a comprehensive e-commerce platform designed to offer a seamless shopping experience for both users and administrators.",
+    tech_stack: "MySQL · HTML5 · CSS · JavaScript · Node.js · Vercel Cloud · Aiven Cloud for Database · Render for API",
+    github_url: "https://github.com/ankit10000/Project-1_ecommerce-website",
+    demo_url: "https://redshop.vercel.app/",
+  },
+  {
+    img: Portfolio,
+    video:"",
+    title: "Ankit || Portfolio",
+    description:
+      "Welcome to my portfolio, where innovation meets expertise in Front-end and Backend Development. I fuse technical prowess with creative flair. Explore my projects showcasing a commitment to excellence, problem-solving, and a passion for delivering impactful solutions. Join me on a journey where ideas come to life, leaving a lasting impression.",
+    tech_stack: "HTML, CSS, Javascript, React JS, Bootstrap",
+    github_url: "https://github.com/ankit10000/ankit_portfolio",
+    demo_url: "https://ankit-portfolio-theta.vercel.app/",
+  },
+  {
       img: "https://i.imgur.com/xBGnjeM.png",
       video:"https://www.kapwing.com/e/6570bd233c17a21c89eb32d7",
       title: "Query-Resolve-System",
@@ -10,16 +52,6 @@ export const ProjectList = [
       tech_stack: "MySQL · HTML · CSS · GitHub · PHP · PhpMyAdmin · Bootstrap",
       github_url: "https://github.com/ankit10000/oldweb",
       demo_url: "http://queryresolve.tk",
-    },
-    {
-      img: Portfolio,
-      video:"",
-      title: "Ankit || Portfolio",
-      description:
-        "Welcome to my portfolio, where innovation meets expertise in Front-end and Backend Development. I fuse technical prowess with creative flair. Explore my projects showcasing a commitment to excellence, problem-solving, and a passion for delivering impactful solutions. Join me on a journey where ideas come to life, leaving a lasting impression.",
-      tech_stack: "HTML, CSS, Javascript, React JS, Bootstrap",
-      github_url: "https://github.com/ankit10000/ankit_portfolio",
-      demo_url: "https://ankit-portfolio-theta.vercel.app/",
     },
     {
       img: "https://i.imgur.com/haXQpUn.jpg",
